@@ -1,0 +1,75 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Google</title>
+</head>
+<body>
+    <div class="search-container">
+        <img src="Cat.jpg" alt="Google Logo" class="google-logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Google or type URL">
+            <button id="searchButton">Google Search</button>
+            <button id="feelingLuckyButton">I'm Feeling Lucky</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
+Style.Css
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.google-logo {
+    max-width: 300px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+#searchButton,
+#feelingLuckyButton {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#searchButton:hover,
+#feelingLuckyButton:hover {
+    background-color: #e0e0e0;
+}
